@@ -1,8 +1,35 @@
-﻿.right{
+﻿* {
+    --color: #565656;
+}
+.right{
     display:flex;
     justify-content:right;
 }
-img{
-    width:4rem;
-    margin:.5rem;
+#ctl11_profile {
+    width: 4rem;
+    height: 4rem;
+    border: solid 3px var(--color) !important;
+    margin: .5rem;
+    border-radius: 50%;
+    background-image: url(Images/profile.png);
+    background-size: cover;
+    background-position: center;
+}
+div .dd {
+    position: absolute;
+    display: grid;
+    z-index: 10;
+    justify-content: center;
+    align-items: start;
+    top:100%
+}
+.navbar{
+    z-index:1000;
+}
+a{
+    cursor:pointer;
+}
+.menu {
+    display: flex;
+    justify-content: center;
 }

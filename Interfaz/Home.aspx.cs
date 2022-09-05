@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace Interfaz
 {
-    public partial class Contact : Page
+    public partial class Home : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

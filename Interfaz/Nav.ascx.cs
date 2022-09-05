@@ -11,7 +11,16 @@ namespace Interfaz
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (Session["Perfil"] != null)
+            {
+                profile.Attributes.CssStyle.Add("background-image", "url(Images/"+Session["Perfil"]+")");
+            }
+        }
 
+        protected void CS_Click(object sender, EventArgs e)
+        {
+            Session.Abandon();
+            Response.Redirect("~/LogIn");
         }
     }
 }

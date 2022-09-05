@@ -1,0 +1,57 @@
+﻿session.add("nombre", Contenido);
+server.transfer("Destino");
+
+label.text = session["nombre"].value;
+/*if (txtDocumento.Text.Length == 8){
+                if(txtNombreApellido.Text.Trim() != "")
+                {
+                    if ((txtContraseña.Text.ToLower() != txtContraseña.Text) && (txtContraseña.Text.Length >= 8))
+                    {
+                        if ((txtEmail.Text.Contains("@") == true) && (txtEmail.Text.Contains(".") == true))
+                        {
+                            if ((txtTelefono.Text.Length == 10) || txtTelefono.Text.Length == 8)
+                            {
+                                Response.Cookies["Documento"].Value = txtDocumento.Text;
+                                Response.Cookies["Nombre y Apellido"].Value = txtNombreApellido.Text;
+                                Response.Cookies["Email"].Value = txtEmail.Text;
+                                Response.Cookies["Telefono"].Value = txtTelefono.Text;
+                                if ((txtCuil.Text.Length == 11) && (MainContent_btnObraSocial.Checked == true))
+                                {
+                                    Response.Cookies["Cuil"].Value = txtCuil.Text;
+                                }
+                                else if (MainContent_btnObraSocial.Checked)
+                                {
+                                    Literal1.EnableViewState = true;
+                                    Literal1.Text = "Cuil Invalido";
+                                }
+                                Response.Redirect("~/HomeTurnos");
+                            }
+                            else
+                            {
+                                Literal1.EnableViewState = true;
+                                Literal1.Text = "Telefono invalido";
+                            }
+                        }
+                        else
+                        {
+                            Literal1.EnableViewState = true;
+                            Literal1.Text = "Email invalido";
+                        }
+                    }
+                    else
+                    {
+                        Literal1.EnableViewState = true;
+                        Literal1.Text = "Contraseña sin mayusculas o muy corta";
+                    }
+                }
+                else
+                {
+                    Literal1.EnableViewState = true;
+                    Literal1.Text = "Nombre y apellido invalidos";
+                }
+            }
+            else
+            {
+                Literal1.EnableViewState = true;
+                Literal1.Text = "Documento ";
+            }*/

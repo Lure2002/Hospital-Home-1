@@ -15,6 +15,69 @@ namespace Interfaz
     {
 
         /// <summary>
+        /// Control LogIndiv.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl LogIndiv;
+
+        /// <summary>
+        /// Control logDocumento.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox logDocumento;
+
+        /// <summary>
+        /// Control logContraseña.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox logContraseña;
+
+        /// <summary>
+        /// Control Rbtn.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlAnchor Rbtn;
+
+        /// <summary>
+        /// Control RememberMe.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox RememberMe;
+
+        /// <summary>
+        /// Control LogInButton.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button LogInButton;
+
+        /// <summary>
+        /// Control Register.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl Register;
+
+        /// <summary>
         /// Control txtDocumento.
         /// </summary>
         /// <remarks>
@@ -24,22 +87,13 @@ namespace Interfaz
         protected global::System.Web.UI.WebControls.TextBox txtDocumento;
 
         /// <summary>
-        /// Control txtNombre.
+        /// Control txtNombreApellido.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtNombre;
-
-        /// <summary>
-        /// Control txtApellido.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtApellido;
+        protected global::System.Web.UI.WebControls.TextBox txtNombreApellido;
 
         /// <summary>
         /// Control txtContraseña.
@@ -69,6 +123,15 @@ namespace Interfaz
         protected global::System.Web.UI.WebControls.TextBox txtTelefono;
 
         /// <summary>
+        /// Control ObraSocial.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl ObraSocial;
+
+        /// <summary>
         /// Control txtCuil.
         /// </summary>
         /// <remarks>
@@ -78,30 +141,48 @@ namespace Interfaz
         protected global::System.Web.UI.WebControls.TextBox txtCuil;
 
         /// <summary>
-        /// Control RememberMe.
+        /// Control MainContent_btnObraSocial.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox RememberMe;
+        protected global::System.Web.UI.WebControls.CheckBox MainContent_btnObraSocial;
 
         /// <summary>
-        /// Control Literal1.
+        /// Control FileProfile.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal Literal1;
+        protected global::System.Web.UI.WebControls.FileUpload FileProfile;
 
         /// <summary>
-        /// Control LoginButton.
+        /// Control Lbtn.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button LoginButton;
+        protected global::System.Web.UI.HtmlControls.HtmlAnchor Lbtn;
+
+        /// <summary>
+        /// Control label1.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label label1;
+
+        /// <summary>
+        /// Control RegisterButton.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button RegisterButton;
     }
 }

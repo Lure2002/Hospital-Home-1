@@ -8,7 +8,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" runat="server" href="~/">Hospital One</a>
+            <a class="navbar-brand" runat="server" href="~/Home">Hospital One</a>
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
@@ -17,7 +17,22 @@
                 <li><a runat="server" href="~/Sedes">Sedes</a></li>
                 <li><a runat="server" href="~/AM">Ayudanos a mejorar</a></li>
             </ul>
-            <div class="right"><a href="#"><img class="navbar-profile" src="Images/profile.png" alt="profile-image" /></a></div>
+            <div class="right">
+                <div class="menu">
+                    <div id="profile" runat="server"></div>
+                    <div id="dd" class="dd" aria-labelledby="dropdownMenuButton">
+                        <asp:Button CssClass="dropdown-item" runat="server" Text="Perfil"/>
+                        <asp:Button OnClick="CS_Click" ID="CS" CssClass="dropdown-item" runat="server" Text="Cerrar sesion"/>
+                    </div>  
+                </div>
+            </div>
         </div>
     </div>
 </div>
+<script>
+    $("#dd").hide();
+    if (document.baseURI != 'http://localhost:63237/LogIn') {
+        $("#ctl11_profile").click(function () { $("#dd").toggle(); })
+        window.onclick == $("#dd").hide();
+    }
+</script>

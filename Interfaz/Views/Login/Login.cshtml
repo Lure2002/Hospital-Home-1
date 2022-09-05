@@ -1,0 +1,26 @@
+﻿@model Interfaz.ModelosEDF.logdb
+
+@{
+    ViewBag.Title = "Login";
+}
+
+<h2>Login</h2>
+@using (Html.BeginForm("Login", "Login", FormMethod.Post))
+{
+    <fieldset>
+        <legend>Simple aplicacion de login con algo parecido a MVC </legend>
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary(true)
+        @if (ViewBag.Message != null)
+        {
+            <div style="border:solid 1px red">
+                @ViewBag.Message
+            </div>
+            <table>
+                <tr>
+                    <td>@Html.LabelFor(a=>a.Documento)</td>
+                </tr>
+            </table>
+        }
+    </fieldset>
+}

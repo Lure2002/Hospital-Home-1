@@ -2,7 +2,7 @@
 
 namespace Interfaz
 {
-    public partial class General : System.Web.UI.MasterPage
+    public partial class AM : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

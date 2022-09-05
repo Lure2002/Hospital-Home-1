@@ -6,7 +6,7 @@
 
 <html lang="es">
 <head runat="server">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title><%: Page.Title %> - Hospital One</title>
@@ -16,10 +16,8 @@
     </asp:PlaceHolder>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
-
-    <webopt:bundlereference runat="server" path="~/Content/css" />
+    <webopt:BundleReference runat="server" Path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-
 </head>
 <body>
     <form runat="server">
@@ -51,7 +49,8 @@
                 <p>&copy; <%: DateTime.Now.Year %> - Hospital One / Digit@lers 2022</p>
             </footer>
         </div>
-
+        <asp:ContentPlaceHolder ID="scriptLoad" runat="server">
+        </asp:ContentPlaceHolder>
     </form>
 </body>
 </html>
